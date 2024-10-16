@@ -1,0 +1,50 @@
+.dialogs {
+    display: grid;
+    grid-template-areas:
+    's m'
+    "q q";
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+
+
+}
+.messages {
+    padding: 10px;
+}
+.messageItem {
+    height: 80px;
+}
+.send {
+    grid-area: q;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.textarea{
+    width: 560px;
+    height: 60px;
+    margin-left: 180px;
+    resize: none;
+}
+
+.sendMessage {
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 7px 2px;
+    text-rendering: auto;
+    color: initial;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+    margin-left: 10px;
+    position: relative;
+    bottom: 26px;
+}

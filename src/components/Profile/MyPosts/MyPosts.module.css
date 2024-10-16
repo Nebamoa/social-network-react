@@ -1,0 +1,9 @@
+.posts {
+    padding-left: 15px;
+}
+.post {
+    padding-top: 15px;
+}
+.textarea {
+    resize: none;
+}
