@@ -1,5 +1,7 @@
 Проект социальной сети. Делается по онлайн курсу https://www.youtube.com/watch?v=gb7gMluAeao&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8 
+Для доступа к api, чтобы не перекидывало на /login при открытии вкладов profile, messages, users, нужно зарегистрироваться на сайте https://social-network.samuraijs.com/ и авторизоваться.
 
+Профиль http://localhost:3000/profile/31712 захардкоден.
 
 # Getting Started with Create React App
 
